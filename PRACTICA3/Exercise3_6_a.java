@@ -30,6 +30,12 @@ public class Exercise3_6_a extends JFrame implements ActionListener {
         boton1.addActionListener(this);
     }
 
+   /**
+    * The function is called when the user clicks the button. It gets a Graphics object from the panel,
+    * and uses it to draw the bar chart
+    * 
+    * @param event The event that triggered the action.
+    */
     public void actionPerformed(ActionEvent event) {
         Graphics paper = panel.getGraphics();
 
@@ -56,5 +62,5 @@ public class Exercise3_6_a extends JFrame implements ActionListener {
         paper.setColor(Color.BLACK);
         pape.drawString("Rainfalls in Xanabu",100,100);*/
 
-        }
+    }
 }
